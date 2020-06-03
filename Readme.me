@@ -1,0 +1,3 @@
+1 这是对bert_five_classification文件的说明：
+2 整体文件包括如下7部分：bert-代码文件；Bert_chinese_L-12_H-768_A-12i-预训练模型；data-用于存放待预测的文本；eval_output-训练得到的模型；predict_output-模型对待预测文本的预测结果；classes.txt-5类文本的类别含义；Readme.me-文件明文档；
+3 使用方法：1）程序输入：将文本写入到data/test.txt文件中，格式为: 1+制表符+文本；2）修改整个文件存放的路径：修改bert/predict.sh中的file_path，现在是/home/zlq/bert_five_classification,需修改为文件存放的真实路径；3) 运行的程序：只需要运行 bert/predict.sh文件即可；4) 程序输出：直接打印每条文本对应的类别，所有预测文本对应的类别以列表形式打印
